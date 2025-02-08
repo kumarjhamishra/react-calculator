@@ -1,0 +1,25 @@
+.container {
+  background-color: #e9f5db; /* Light background color that complements the calculator */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+.calculator {
+  background-color: #a8d5ba;
+  border: 1px solid #8b7e74;
+  width: 200px;
+  border-radius: 5px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.heading {
+    font-family: "Arial", sans-serif;
+    color: #4a4e69;
+    margin-bottom: 20px;
+    font-size: 34px; /* Increase font size for better visibility */
+    text-align: center; /* Center the heading text */
+}

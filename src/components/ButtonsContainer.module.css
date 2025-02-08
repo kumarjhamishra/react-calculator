@@ -1,0 +1,36 @@
+.buttonsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: #d1cbb3; /* Light beige for buttons */
+    border: 2px solid #8b7e74; /* Same border color for consistency */
+    color: #2b3d52; /* Navy blue text for readability */
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover{
+    background-color: #b0a797; /* Slightly darker beige on hover */
+}
+
+.button:active{
+    background-color: #8b7e74; /* Darker for active button press */
+    color: #ffffff; /* White text for contrast */
+}
+
+.button.special{
+    background-color: #8b7e74;
+    color: #ffffff;
+    font-weight: bold;
+}
+.button.special:hover{
+    background-color: #6b9f7f; /* Darker green hover for special buttons */
+}
